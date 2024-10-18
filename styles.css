@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+header {
+    background-color: skyblue;
+    color: brown;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.subject-content {
+    display: none; /* Initially hidden */
+    margin-bottom: 30px;
+}
+
+.chapter {
+    margin-bottom: 20px;
+}
+
+.chapter button {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    margin-top: 10px;
+    display: none; /* Initially hide the video container */
+}
+
+.chapter a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#formulas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#formulas ul li {
+    background-color: #e7f3fe;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer-content i {
+    margin-right: 8px;
+    color: #f1c40f; /* Yellow/gold color for icons */
+}
+
+.footer-content a {
+    color: #f1c40f; /* Yellow/gold color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #ffdf00; /* Lighter yellow on hover */
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+footer p {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: black; /* Example: Dark gray color */
+    font-family: 'Arial', sans-serif; /* Example: Use Arial font */
+   text-shadow: 2px 5px 10px yellow;
+}
+/* Styling the h2 tag inside Physics content */
+#physics-content h2 {
+    font-size: 28px;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid lightgray;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#chemistry-content h2 {
+    font-size: 28px;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid lightgray;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#maths-content h3 {
+    font-size: 28px;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid lightgray;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+/* Styling for the Formulas section */
+#formulas {
+    background-color: wheat;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#formulas:hover {
+    transform: translateY(-25px);
+    box-shadow: 34px 23px 45px rgba(0, 0, 0, 0.2);
+}
+
+#formulas h2 {
+    font-size: 30px;
+    color: #007acc;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: color 0.5s ease;
+    text-shadow: 2px 4px 5px yellow;
+}
+
+#formulas h2:hover {
+    color: #005b99;
+    
+}
+
+#formulas p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#formulas p:hover {
+    color: #666;
+}
+
+#formulas h3{
+    text-decoration: 2px 4px 5px red;
+}
+
+.creator-line {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.creator-line p {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+/* Logo Styling */
+.logo-container {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+}
+
+#logo {
+    width: 120px; /* Adjust the size */
+    height: auto; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10%;
+}
+
+/* Hover effect for the logo */
+#logo:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
